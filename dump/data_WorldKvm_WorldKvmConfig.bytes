@@ -1,0 +1,23 @@
+return 
+{
+  ["ArmorParam1"]= 0.5,
+  ["ArmorParam2"]= 0.5,
+  ["ArmorParam3"]= 0.5,
+  ["FmvpParam1"]= 0.5,
+  ["FmvpParam2"]= 0.5,
+  ["FmvpParam3"]= 0.5,
+  ["FmvpParam4"]= 0.5,
+  ["FmvpParam5"]= 0.5,
+  ["HealerParam1"]= 0.5,
+  ["TeamNameMax"]= 14,
+  ["TeamNameMin"]= 1,
+  ["TeamSecedeCd"]= 1800,
+  ["TeamShareCd"]= 30,
+  ["WorldKvmApplyLimit"]= 8,
+  ["WorldKvmHonorDay"]= 7,
+  ["WorldKvmHonorMail"]= 16001,
+  ["WorldKvmHonorReward"]= 10082,
+  ["WorldKvmHonorTime"]= 5,
+  ["WorldKvmTicket"]= 10202156,
+  ["WorldKvmTicketNum"]= 1
+}

@@ -1,0 +1,37 @@
+local table= {
+[1] = {},
+[2] = {
+  ["dropId"]= 10658,
+  ["id"]= 2,
+  ["name"]= "本服冠军",
+  ["type"]= 2
+},
+[3] = {
+  ["dropId"]= 10659,
+  ["id"]= 3,
+  ["name"]= "跨区八强",
+  ["type"]= 3
+},
+[4] = {
+  ["dropId"]= 10660,
+  ["id"]= 4,
+  ["name"]= "跨区冠军",
+  ["type"]= 4
+},
+[5] = {
+  ["dropId"]= 10661,
+  ["id"]= 5,
+  ["name"]= "参与观众",
+  ["type"]= 5
+}
+}
+local baseTable={
+  ["dropId"]= 10657,
+  ["id"]= 1,
+  ["name"]= "本服八强",
+  ["type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;

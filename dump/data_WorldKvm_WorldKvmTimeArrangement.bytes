@@ -1,0 +1,145 @@
+local table= {
+[1] = {
+  ["type"]= 1
+},
+[2] = {
+  ["beginTime"]= 432000,
+  ["endTime"]= 919800,
+  ["id"]= 2,
+  ["type"]= 2
+},
+[3] = {
+  ["beginTime"]= 919800,
+  ["endTime"]= 1004400,
+  ["id"]= 3,
+  ["type"]= 4
+},
+[4] = {
+  ["beginTime"]= 1004400,
+  ["endTime"]= 1006200,
+  ["id"]= 4,
+  ["name"]= "ui_CrossRegionKVM_069",
+  ["type"]= 3
+},
+[5] = {
+  ["beginTime"]= 1006200,
+  ["endTime"]= 1090800,
+  ["id"]= 5,
+  ["type"]= 4
+},
+[6] = {
+  ["beginTime"]= 1090800,
+  ["endTime"]= 1092600,
+  ["id"]= 6,
+  ["name"]= "ui_CrossRegionKVM_070",
+  ["type"]= 3
+},
+[7] = {
+  ["beginTime"]= 1092600,
+  ["endTime"]= 1177200,
+  ["id"]= 7,
+  ["type"]= 4
+},
+[8] = {
+  ["beginTime"]= 1177200,
+  ["endTime"]= 1179000,
+  ["id"]= 8,
+  ["name"]= "ui_CrossRegionKVM_071",
+  ["type"]= 3
+},
+[9] = {
+  ["beginTime"]= 1179000,
+  ["endTime"]= 1265400,
+  ["id"]= 9,
+  ["type"]= 8
+},
+[10] = {
+  ["beginTime"]= 1265400,
+  ["endTime"]= 1350000,
+  ["id"]= 10
+},
+[11] = {
+  ["beginTime"]= 1350000,
+  ["endTime"]= 1351800,
+  ["id"]= 11,
+  ["name"]= "ui_CrossRegionKVM_072",
+  ["type"]= 5
+},
+[12] = {
+  ["beginTime"]= 1351800,
+  ["endTime"]= 1436400,
+  ["id"]= 12
+},
+[13] = {
+  ["beginTime"]= 1436400,
+  ["endTime"]= 1438200,
+  ["id"]= 13,
+  ["name"]= "ui_CrossRegionKVM_073",
+  ["type"]= 5
+},
+[14] = {
+  ["beginTime"]= 1438200,
+  ["endTime"]= 1522800,
+  ["id"]= 14
+},
+[15] = {
+  ["beginTime"]= 1522800,
+  ["endTime"]= 1524600,
+  ["id"]= 15,
+  ["name"]= "ui_CrossRegionKVM_074",
+  ["type"]= 5
+},
+[16] = {
+  ["beginTime"]= 1524600,
+  ["endTime"]= 1609200,
+  ["id"]= 16
+},
+[17] = {
+  ["beginTime"]= 1609200,
+  ["endTime"]= 1611000,
+  ["id"]= 17,
+  ["name"]= "ui_CrossRegionKVM_075",
+  ["type"]= 5
+},
+[18] = {
+  ["beginTime"]= 1611000,
+  ["endTime"]= 1695600,
+  ["id"]= 18
+},
+[19] = {
+  ["beginTime"]= 1695600,
+  ["endTime"]= 1697400,
+  ["id"]= 19,
+  ["name"]= "ui_CrossRegionKVM_076",
+  ["type"]= 5
+},
+[20] = {
+  ["beginTime"]= 1697400,
+  ["endTime"]= 1782000,
+  ["id"]= 20
+},
+[21] = {
+  ["beginTime"]= 1782000,
+  ["endTime"]= 1783800,
+  ["id"]= 21,
+  ["name"]= "ui_CrossRegionKVM_077",
+  ["type"]= 5
+},
+[22] = {
+  ["beginTime"]= 1783800,
+  ["endTime"]= 2592000,
+  ["id"]= 22,
+  ["type"]= 7
+}
+}
+local baseTable={
+  ["beginTime"]= 0,
+  ["endTime"]= 432000,
+  ["id"]= 1,
+  ["name"]= "",
+  ["type"]= 6
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;
